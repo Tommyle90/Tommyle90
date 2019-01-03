@@ -7,14 +7,17 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+-webkit-text-stroke: 2px black;
   .intro-text {
     padding-top: 150px;
     padding-bottom: 100px;
+    -webkit-text-stroke: 2px black;
     .intro-lead-in {
-      font-size: 22px;
+      font-size: 60px;
       font-style: italic;
       line-height: 22px;
       margin-bottom: 25px;
+-webkit-text-stroke: 2px black;
       @include serif-font;
     }
     .intro-heading {
@@ -22,6 +25,7 @@ header.masthead {
       font-weight: 700;
       line-height: 50px;
       margin-bottom: 25px;
+-webkit-text-stroke: 2px black;
       @include heading-font;
     }
   }
@@ -32,7 +36,7 @@ header.masthead {
       padding-top: 300px;
       padding-bottom: 200px;
       .intro-lead-in {
-        font-size: 40px;
+        font-size: 60px;
         font-style: italic;
         line-height: 40px;
         margin-bottom: 25px;
